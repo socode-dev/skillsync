@@ -1,27 +1,20 @@
-import { HiOutlineDocumentText } from "react-icons/hi2";
-import { GiBrain } from "react-icons/gi";
-import { BsBullseye } from "react-icons/bs";
+import { HiBookmark, HiBriefcase, HiOutlineDocumentText } from "react-icons/hi2";
 import { FiMail } from "react-icons/fi";
 
 export const offers = [
   {
     icon: HiOutlineDocumentText,
-    title: "AI Resume Matching",
-    desc: "Matches your resume with real job listings.",
+    title: "Resume to Skills, Automatically",
+    desc: "Upload your PDF or DOCX resume and SkillSync pulls out your skills without you lifting a finger.",
   },
   {
-    icon: GiBrain,
-    title: "Real-time Skill Gap Analysis",
-    desc: "See what skills you're missing for top roles.",
+    icon: HiBriefcase,
+    title: "Jobs That Actually Match You",
+    desc: "Real remote listings from live job APIs, filtered by the skills found in your resume.",
   },
   {
-    icon: BsBullseye,
-    title: "Learning Path Suggestions",
-    desc: " Personalized resources to fill your gaps.",
-  },
-  {
-    icon: FiMail,
-    title: "Application Tracker",
-    desc: "Keep tabs on where you've applied and been shorlisted.",
+    icon: HiBookmark,
+    title: "Save and Come Back",
+    desc: " Bookmark roles you like and return to apply when you’re ready. Nothing gets lost.",
   },
 ];
