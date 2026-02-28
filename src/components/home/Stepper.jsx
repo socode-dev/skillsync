@@ -6,13 +6,13 @@ const Stepper = () => {
       <h2 className="text-2xl font-bold">How It Works</h2>
       <ol className="space-y-6 w-fit mx-auto text-left">
         <li>
-          <strong>Step 1:</strong> Paste your resume
+          <strong>Step 1:</strong> Upload your resume
         </li>
         <li>
-          <strong>Step 2:</strong> Extract and edit your skills
+          <strong>Step 2:</strong> Review and edit your extracted skills
         </li>
         <li>
-          <strong>Step 3:</strong> View match jobs
+          <strong>Step 3:</strong> View jobs matched to your skills
         </li>
       </ol>
     </>

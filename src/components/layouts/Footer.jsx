@@ -14,7 +14,7 @@ const Footer = () => {
       transition={{ duration: 0.6, ease: "easeOut" }}
       className="w-full text-[rgb(var(--color-muted))] py-4 text-center border-t border-[rgb(var(--color-border))] text-sm"
     >
-      <p>&copy; {year} SkillSync. All rights reseverd.</p>
+      <p>&copy; {year} SkillSync. All rights reserved.</p>
       <p className="mt-1">
         Built by{" "}
         <a

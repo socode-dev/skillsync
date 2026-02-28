@@ -15,14 +15,13 @@ const Hero = () => {
         initial={{ opacity: 0, x: -50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.6 }}
-        className="space-y-6"
+        className="space-y-4"
       >
         <h1 className="text-4xl font-bold leading-tight">
-          Instantly See How Well You Match a Job
+          Find Jobs That Actually Match Your Skills 
         </h1>
         <p className="text-base text-[rgb(var(--color-muted))] leading-relaxed">
-          Paste your resume and a job description, SkillSync compares then using
-          AI to find your strengths and gaps. Know exactly where you stand.
+        Upload your resume and instantly see remote jobs that match your skills. No manual searching, no guessing.
         </p>
         <Button onClick={handleClick} children="Start Matching" />
       </motion.div>

@@ -17,7 +17,7 @@ const MainLayout = () => {
     <div className="relative w-full h-screen flex flex-col">
       <Header />
       <ScrollToTop />
-      <main className="grow mt-12">
+      <main className="grow mt-15">
         <AnimatePresence mode="wait">
           <Outlet key={location.pathname} />
         </AnimatePresence>

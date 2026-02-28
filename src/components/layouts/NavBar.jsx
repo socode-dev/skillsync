@@ -12,7 +12,7 @@ const NavBar = ({ navLink }) => {
           key={link.path}
           to={link.path}
           className={clsx(
-            "transition-colors",
+            "transition-colors text-base",
             pathname === link.path
               ? "text-[rgb(var(--color-brand))]"
               : "text-[rgb(var(--color-muted))] hover:text-[rgb(var(--color-brand-hover))]"
